@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(158, 158, 158);
+}
+.ei_menu{
+      position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70%;
+    padding: 40px;
+}
+ul{
+    list-style: none;
+}
+.ei_menu ul{
+    height: 350px;
+}
+.ei_menu ul li{
+    float: left;
+    width: 200px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+.ei_preview_one,
+.ei_preview_two,
+.ei_preview_three,
+.ei_preview_four,
+.ei_preview_five,
+.ei_preview_six{
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+    top: 0px;
+    left: 0px;
+    
+}
+.ei_descr{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    border-right: 7px solid rgb(226, 225, 225);
+    padding: 10px;
+    left: 200px;
+    top: 0px;
+    background: white;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out;
+}
+.ei_menu ul li:hover .ei_descr {
+    opacity: 1; 
+}
+.container h4{
+    font-size: 32pt;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 1px white;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 150px;
+}
+.ei_descr h3{
+    color: white;
+    text-shadow: 0px 0px 1px black;
+    font-style: normal;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    background: rgb(97, 95, 95);
+    font-weight: normal; 
+    height: 20px;
+}
+.ei_descr p{
+    color: black;
+    padding: 7px 3px 0px 3px;
+    line-height: 15px;
+    font-size: 8pt;
+}
+.star img{  
+width: 20px;
+height: 20px;   
+}
+.user_photo{
+    width: 100px;
+}
+.user_photo_1{
+    display: flex;
+    flex-direction: row;
+    width: 170px;
+    height: auto;
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+
